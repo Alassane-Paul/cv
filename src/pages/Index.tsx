@@ -25,13 +25,7 @@ const Index = () => {
             <Education />
             <Languages />
           </div>
-        </div>
-        
-        {/* Footer */}
-        <footer className="mt-12 text-center text-sm text-muted-foreground pb-20">
-          <p>CV généré le {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
-          <p className="mt-1">Disponible immédiatement</p>
-        </footer>
+      </div>
       </div>
       
       <PrintButton />
