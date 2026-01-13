@@ -17,39 +17,39 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Frontend",
     skills: [
-      { name: "React", level: "intermédiaire" },
-      { name: "TypeScript", level: "intermédiaire" },
-      { name: "JavaScript", level: "avancé" },
-      { name: "HTML/CSS", level: "avancé" },
-      { name: "Tailwind CSS", level: "intermédiaire" },
+      { name: "React", level: "expert" },
+      { name: "TypeScript", level: "avancé" },
+      { name: "JavaScript", level: "expert" },
+      { name: "HTML/CSS", level: "expert" },
+      { name: "Tailwind CSS", level: "avancé" },
     ],
   },
   {
     title: "Backend",
     skills: [
-      { name: "Node.js", level: "intermédiaire" },
-      { name: "Spring Boot", level: "notions" },
-      { name: "Java", level: "notions" },
-      { name: "REST API", level: "intermédiaire" },
+      { name: "Node.js", level: "avancé" },
+      { name: "Express.js", level: "avancé" },
+      { name: "Laravel", level: "avancé" },
+      { name: "REST API", level: "expert" },
+      { name: "PHP", level: "avancé" },
     ],
   },
   {
     title: "Base de données",
     skills: [
-      { name: "Firebase", level: "avancé" },
-      { name: "Firestore", level: "avancé" },
-      { name: "MySQL", level: "intermédiaire" },
+      { name: "MySQL", level: "avancé" },
       { name: "MongoDB", level: "notions" },
     ],
   },
   {
-    title: "Outils",
+    title: "Outils & No-Code",
     skills: [
       { name: "Git", level: "avancé" },
       { name: "GitHub", level: "avancé" },
       { name: "VS Code", level: "expert" },
+      { name: "Figma", level: "expert" },
       { name: "Android Studio", level: "avancé" },
-      { name: "Figma", level: "intermédiaire" },
+      { name: "No-Code Tools", level: "avancé" },
     ],
   },
 ];

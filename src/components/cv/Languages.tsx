@@ -23,10 +23,10 @@ const Languages = () => {
           <div>
             <div className="flex justify-between items-center mb-1">
               <span className="font-medium text-foreground">Anglais</span>
-              <span className="text-sm text-muted-foreground">Professionnel</span>
+              <span className="text-sm text-muted-foreground">Intermédiaire</span>
             </div>
             <div className="h-2 bg-secondary rounded-full overflow-hidden">
-              <div className="h-full gradient-accent rounded-full" style={{ width: "75%" }} />
+              <div className="h-full gradient-accent rounded-full" style={{ width: "60%" }} />
             </div>
           </div>
           
@@ -78,19 +78,19 @@ const Languages = () => {
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-primary" />
+            <span>Musique</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-accent" />
             <span>Nouvelles technologies</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-accent" />
+            <span className="w-2 h-2 rounded-full bg-primary" />
             <span>Open Source</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-primary" />
-            <span>Football</span>
-          </div>
-          <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-accent" />
-            <span>Lecture tech</span>
+            <span>No-Code</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-primary" />
@@ -98,7 +98,7 @@ const Languages = () => {
           </div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-accent" />
-            <span>Voyages</span>
+            <span>Lecture tech</span>
           </div>
         </div>
       </section>

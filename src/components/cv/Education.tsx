@@ -14,11 +14,11 @@ const Education = () => {
             <GraduationCap className="w-6 h-6 text-primary-foreground" />
           </div>
           <div>
-            <h3 className="font-semibold text-foreground">Licence en Informatique</h3>
-            <p className="text-muted-foreground text-sm">Université de Lomé</p>
-            <p className="text-muted-foreground text-sm">2021 - 2024</p>
+            <h3 className="font-semibold text-foreground">Formation Développeur Web & Mobile</h3>
+            <p className="text-muted-foreground text-sm">Académie Digitale Numérique (ADN)</p>
+            <p className="text-muted-foreground text-sm">2025 - 2026</p>
             <p className="text-sm text-foreground/80 mt-2">
-              Spécialisation en développement logiciel et systèmes d'information
+              Formation intensive en développement Full-Stack, mobile et outils No-Code
             </p>
           </div>
         </div>
@@ -28,11 +28,10 @@ const Education = () => {
             <Award className="w-6 h-6 text-accent-foreground" />
           </div>
           <div>
-            <h3 className="font-semibold text-foreground">Baccalauréat Série C</h3>
-            <p className="text-muted-foreground text-sm">Lycée de Lomé</p>
-            <p className="text-muted-foreground text-sm">2021</p>
+            <h3 className="font-semibold text-foreground">Baccalauréat Série D</h3>
+            <p className="text-muted-foreground text-sm">2022</p>
             <p className="text-sm text-foreground/80 mt-2">
-              Mention Bien
+              Sciences de la vie et de la terre
             </p>
           </div>
         </div>
@@ -41,24 +40,28 @@ const Education = () => {
       <div className="mt-8">
         <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
           <Award className="w-5 h-5 text-primary" />
-          Certifications & Formations
+          Compétences Complémentaires
         </h3>
         <ul className="space-y-2 text-sm">
           <li className="flex items-start gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-            <span><strong>Flutter & Dart - The Complete Guide</strong> - Udemy (2024)</span>
+            <span><strong>Flutter & Dart</strong> - Développement mobile cross-platform</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-            <span><strong>React - The Complete Course</strong> - Udemy (2023)</span>
+            <span><strong>React & Node.js</strong> - Développement Full-Stack</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-            <span><strong>Firebase Fundamentals</strong> - Google (2024)</span>
+            <span><strong>Laravel & PHP</strong> - Backend robuste</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-            <span><strong>Git & GitHub Bootcamp</strong> - Coursera (2023)</span>
+            <span><strong>Figma</strong> - Design UI/UX professionnel</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+            <span><strong>No-Code Development</strong> - Prototypage rapide et solutions agiles</span>
           </li>
         </ul>
       </div>
