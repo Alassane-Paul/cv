@@ -10,39 +10,17 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Développeur Mobile (Stage)",
-    company: "Startup Tech Lomé",
-    period: "Juin 2024 - Août 2024",
-    description: [
-      "Développement d'une application mobile de gestion de livraison avec Flutter",
-      "Intégration de Firebase Authentication et Firestore",
-      "Mise en place de notifications push et géolocalisation",
-      "Collaboration avec l'équipe backend pour l'intégration des APIs",
-    ],
-    technologies: ["Flutter", "Dart", "Firebase", "Google Maps API"],
-  },
-  {
-    title: "Projet Personnel - Application E-commerce",
-    company: "Projet Autodidacte",
-    period: "Mars 2024 - Mai 2024",
-    description: [
-      "Conception et développement d'une application mobile marketplace",
-      "Implémentation d'un système de panier et de paiement simulé",
-      "Création d'un back-office React pour la gestion des produits",
-      "Déploiement sur Firebase Hosting",
-    ],
-    technologies: ["Flutter", "React", "Node.js", "Firebase"],
-  },
-  {
-    title: "Développeur Web Junior (Freelance)",
+    title: "Développeur Full-Stack (Freelance)",
     company: "Clients Divers",
-    period: "Janvier 2024 - Présent",
+    period: "2024 - Présent",
     description: [
-      "Création de sites vitrines responsives pour PME locales",
-      "Développement de landing pages optimisées",
-      "Maintenance et mise à jour de sites existants",
+      "Développement d'applications web complètes avec Laravel et React",
+      "Création d'interfaces utilisateur modernes avec Blade et Tailwind CSS",
+      "Conception et intégration d'APIs RESTful avec Node.js et Express",
+      "Développement d'applications mobiles Flutter pour divers clients",
+      "Maquettage et prototypage sur Figma avant développement",
     ],
-    technologies: ["React", "JavaScript", "Tailwind CSS", "WordPress"],
+    technologies: ["Laravel", "React", "Flutter", "Node.js", "Express", "MySQL", "Figma"],
   },
 ];
 

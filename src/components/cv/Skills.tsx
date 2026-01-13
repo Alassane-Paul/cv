@@ -20,6 +20,7 @@ const skillCategories: SkillCategory[] = [
       { name: "React", level: "expert" },
       { name: "TypeScript", level: "avancé" },
       { name: "JavaScript", level: "expert" },
+      { name: "Blade", level: "avancé" },
       { name: "HTML/CSS", level: "expert" },
       { name: "Tailwind CSS", level: "avancé" },
     ],
