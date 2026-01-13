@@ -12,33 +12,39 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "ShopTogo",
-    description: "Application mobile e-commerce complète avec gestion de panier, système de paiement intégré, et suivi de commandes en temps réel.",
-    technologies: ["Flutter", "Dart", "Firebase", "Stripe"],
-    type: "mobile",
-    github: "https://github.com/paulalassane/shoptogo",
-  },
-  {
-    title: "TaskFlow",
-    description: "Application de gestion de tâches avec synchronisation cloud, notifications, et collaboration d'équipe.",
-    technologies: ["Flutter", "Firebase", "Cloud Functions"],
-    type: "mobile",
-    github: "https://github.com/paulalassane/taskflow",
-  },
-  {
-    title: "Fitness Tracker",
-    description: "Application de suivi fitness avec intégration de capteurs, visualisation de données et objectifs personnalisés.",
-    technologies: ["Flutter", "Dart", "Charts", "SQLite"],
-    type: "mobile",
-    github: "https://github.com/paulalassane/fitness-tracker",
-  },
-  {
-    title: "Portfolio Personnel",
-    description: "Site web portfolio moderne et responsive avec animations fluides et mode sombre.",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    title: "Système de Gestion d'École",
+    description: "Application web complète de gestion scolaire avec suivi des élèves, notes, emplois du temps et communication parents-enseignants.",
+    technologies: ["Laravel", "Blade", "MySQL", "Tailwind CSS"],
     type: "web",
-    github: "https://github.com/paulalassane/portfolio",
-    demo: "https://paulalassane.dev",
+    github: "https://github.com/paulalassane/gestion-ecole",
+  },
+  {
+    title: "LomoHealth",
+    description: "Plateforme de santé digitale permettant la gestion des rendez-vous médicaux et le suivi des patients.",
+    technologies: ["Laravel", "React", "MySQL", "API REST"],
+    type: "web",
+    github: "https://github.com/paulalassane/lomohealth",
+  },
+  {
+    title: "Dzumevi",
+    description: "Application de services locaux connectant les utilisateurs avec des prestataires de proximité.",
+    technologies: ["Flutter", "Dart", "Laravel", "MySQL"],
+    type: "mobile",
+    github: "https://github.com/paulalassane/dzumevi",
+  },
+  {
+    title: "QuizzApp",
+    description: "Application mobile de quiz interactif avec système de scores, classements et catégories variées.",
+    technologies: ["Flutter", "Dart", "Firebase"],
+    type: "mobile",
+    github: "https://github.com/paulalassane/quizzapp",
+  },
+  {
+    title: "TaskApp",
+    description: "Application de gestion de tâches avec notifications, priorités et synchronisation en temps réel.",
+    technologies: ["Flutter", "Dart", "Node.js", "Express"],
+    type: "mobile",
+    github: "https://github.com/paulalassane/taskapp",
   },
 ];
 
