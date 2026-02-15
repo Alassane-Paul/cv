@@ -20,13 +20,13 @@ const Header = () => {
             </p>
             
             <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm">
-              <a href="mailto:alassanepaul1@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+              <a href="mailto:alassanepaul0@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Mail className="w-4 h-4" />
-                alassanepaul1@gmail.com
+                alassanepaul0@gmail.com
               </a>
-              <a href="tel:+22890000000" className="flex items-center gap-2 hover:text-accent transition-colors">
+              <a href="tel:+22891782947" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Phone className="w-4 h-4" />
-                +228 90 00 00 00
+                +228 91 78 29 47
               </a>
               <span className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
@@ -35,11 +35,11 @@ const Header = () => {
             </div>
             
             <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-4 text-sm">
-              <a href="https://github.com/paulalassane" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
+              <a href="https://github.com/Alassane-Paul" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Github className="w-4 h-4" />
-                github.com/paulalassane
+                github.com/Alassane-Paul
               </a>
-              <a href="https://linkedin.com/in/paulalassane" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
+              <a href="https://www.linkedin.com/in/paul-alassane-2602423a3/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Linkedin className="w-4 h-4" />
                 LinkedIn
               </a>

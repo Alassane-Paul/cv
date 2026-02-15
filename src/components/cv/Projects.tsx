@@ -20,10 +20,10 @@ const projects: Project[] = [
   },
   {
     title: "LomoHealth",
-    description: "Plateforme de santé digitale permettant la gestion des rendez-vous médicaux et le suivi des patients.",
-    technologies: ["Laravel", "React", "MySQL", "API REST"],
+    description: "Plateforme de santé digitale permettant de numériser les carnet de vaccination des enfants par le biais d'un QR code et d'alerter les parents en cas de retard de vaccination et de notifier lors d'une nouvelle vague de vaccination avec support de langues locales.",
+    technologies: ["Laravel", "Blade", "Flutter", "MySQL", "API REST"],
     type: "web",
-    github: "https://github.com/paulalassane/lomohealth",
+    github: "https://github.com/Alassane-Paul/LomoHealth",
   },
   {
     title: "Dzumevi",
@@ -37,14 +37,14 @@ const projects: Project[] = [
     description: "Application mobile de quiz interactif avec système de scores, classements et catégories variées.",
     technologies: ["Flutter", "Dart", "Firebase"],
     type: "mobile",
-    github: "https://github.com/paulalassane/quizzapp",
+    github: "https://github.com/Alassane-Paul/Quizz_App",
   },
   {
     title: "TaskApp",
     description: "Application de gestion de tâches avec notifications, priorités et synchronisation en temps réel.",
-    technologies: ["Flutter", "Dart", "Node.js", "Express"],
+    technologies: ["Flutter", "Dart", "Laravel", "MySQL"],
     type: "mobile",
-    github: "https://github.com/paulalassane/taskapp",
+    github: "https://github.com/Alassane-Paul/Task_App",
   },
 ];
 

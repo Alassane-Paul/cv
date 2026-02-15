@@ -13,10 +13,10 @@ const Languages = () => {
           <div>
             <div className="flex justify-between items-center mb-1">
               <span className="font-medium text-foreground">Français</span>
-              <span className="text-sm text-muted-foreground">Langue maternelle</span>
+              <span className="text-sm text-muted-foreground">Courant</span>
             </div>
             <div className="h-2 bg-secondary rounded-full overflow-hidden">
-              <div className="h-full gradient-primary rounded-full" style={{ width: "100%" }} />
+              <div className="h-full gradient-primary rounded-full" style={{ width: "90%" }} />
             </div>
           </div>
           
@@ -26,17 +26,17 @@ const Languages = () => {
               <span className="text-sm text-muted-foreground">Intermédiaire</span>
             </div>
             <div className="h-2 bg-secondary rounded-full overflow-hidden">
-              <div className="h-full gradient-accent rounded-full" style={{ width: "60%" }} />
+              <div className="h-full gradient-accent rounded-full" style={{ width: "50%" }} />
             </div>
           </div>
           
           <div>
             <div className="flex justify-between items-center mb-1">
               <span className="font-medium text-foreground">Ewé</span>
-              <span className="text-sm text-muted-foreground">Courant</span>
+              <span className="text-sm text-muted-foreground">Langue maternelle</span>
             </div>
             <div className="h-2 bg-secondary rounded-full overflow-hidden">
-              <div className="h-full gradient-primary rounded-full" style={{ width: "90%" }} />
+              <div className="h-full gradient-primary rounded-full" style={{ width: "100%" }} />
             </div>
           </div>
         </div>
@@ -58,6 +58,7 @@ const Languages = () => {
             "Apprenant rapide",
             "Proactif",
             "Organisé",
+            "Ponctuel",
           ].map((quality) => (
             <span
               key={quality}
@@ -86,7 +87,7 @@ const Languages = () => {
           </div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-primary" />
-            <span>Open Source</span>
+            <span>Voyage</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-accent" />
@@ -99,6 +100,10 @@ const Languages = () => {
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-accent" />
             <span>Lecture tech</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-primary" />
+            <span>Open Source</span>
           </div>
         </div>
       </section>

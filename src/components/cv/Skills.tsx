@@ -39,7 +39,7 @@ const skillCategories: SkillCategory[] = [
     title: "Base de données",
     skills: [
       { name: "MySQL", level: "avancé" },
-      { name: "MongoDB", level: "notions" },
+      { name: "PostgreSQL", level: "notions" },
     ],
   },
   {
@@ -47,8 +47,11 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Git", level: "avancé" },
       { name: "GitHub", level: "avancé" },
+      { name: "Trello", level: "avancé" },
+      { name: "Intellige", level: "avancé" },
       { name: "VS Code", level: "expert" },
       { name: "Figma", level: "expert" },
+      { name: "Canva", level: "expert" },
       { name: "Android Studio", level: "avancé" },
       { name: "No-Code Tools", level: "avancé" },
     ],

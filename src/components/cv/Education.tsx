@@ -18,12 +18,12 @@ const Education = () => {
             <p className="text-muted-foreground text-sm">Académie Digitale Numérique (ADN)</p>
             <p className="text-muted-foreground text-sm">2025 - 2026</p>
             <p className="text-sm text-foreground/80 mt-2">
-              Formation intensive en développement Full-Stack, mobile et outils No-Code
+              Formation intensive en développement Full-Stack, web/ web mobile et outils No-Code
             </p>
           </div>
         </div>
         
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center shrink-0">
             <Award className="w-6 h-6 text-accent-foreground" />
           </div>
@@ -34,7 +34,7 @@ const Education = () => {
               Sciences de la vie et de la terre
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       
       <div className="mt-8">

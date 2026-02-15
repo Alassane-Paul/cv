@@ -12,15 +12,18 @@ const experiences: ExperienceItem[] = [
   {
     title: "Développeur Full-Stack (Freelance)",
     company: "Clients Divers",
-    period: "2024 - Présent",
+    period: "2025 - Présent",
     description: [
       "Développement d'applications web complètes avec Laravel et React",
+      "Développement d'application multiplatforme avec Laravel et Flutter",
+      "Développement d'application web complètes full JavaScript",
       "Création d'interfaces utilisateur modernes avec Blade et Tailwind CSS",
       "Conception et intégration d'APIs RESTful avec Node.js et Express",
       "Développement d'applications mobiles Flutter pour divers clients",
+      "Conception de site web pour divers clients",
       "Maquettage et prototypage sur Figma avant développement",
     ],
-    technologies: ["Laravel", "React", "Flutter", "Node.js", "Express", "MySQL", "Figma"],
+    technologies: ["Laravel", "React", "Flutter", "Node.js", "Express", "MySQL", "Figma", "WordPress", "HTML/CSS"],
   },
 ];
 
